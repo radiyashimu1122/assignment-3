@@ -6,6 +6,10 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <!-- This is Web Title -->
  <title>Hockey's</title>
+ <!-- This is font link -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap" rel="stylesheet">
  <!-- This is Css link -->
  <link rel="stylesheet" href="style.css">
  <!-- This is favicone -->
@@ -15,63 +19,69 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <section class="flex justify-between">
-    <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold">
-              <li><a>Home</a></li>
-              <li>
+  <!-- This is nav bar start -->
+  <section>
+    <nav class="flex justify-between">
+      <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold">
+                <li><a>Home</a></li>
+                <li>
                 <a>About</a>
-              </li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
+                </li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-3xl sm:text-2xl font-extrabold"><span class="text-3xl">
+              Hockey</span><span class="text-red-500 -3xl ">’</span><span class="text-3xl">s</span></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-[16px] font-bold">
+              <li class="text-red-500"><a>Home</a></li>
+                <li>
+                  <a>About</a>
+                </li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-4xl sm:text-2xl font-extrabold">Hockey’s</a>
+          <div class="navbar-end">
+              <img src="images/search.jpg" alt="" class="hidden lg:block mr-5 h-6">
+            <a class="btn btn-error text-white text-xl font-bold"><span class="text-white">Get Ticket</span></a>
+          </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-[16px] font-bold">
-            <li class="text-red-500"><a>Home</a></li>
-              <li>
-                <a>About</a>
-              </li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-            <img src="./Images/search.jpg" alt="" class="hidden lg:block mr-5 h-6">
-          <a class="btn btn-error text-white text-xl font-bold">Get Ticket</a>
-        </div>
-      </div>
-</section>
-
+  </nav>
+  </section>
+  <!-- This is nav bar end -->
 <!-- This is banner section start -->
-<div class="carousel">
- <div id="item1" class="carousel-item w-full bg">
-   <img src="images/banner-1.png" class="w-full" />
- </div> 
- <div id="item2" class="carousel-item w-full">
-   <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
- </div> 
- <div id="item3" class="carousel-item w-full">
-   <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
- </div> 
- <div id="item4" class="carousel-item w-full">
-   <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
- </div>
-</div> 
-<div class="flex justify-center w-full py-2 gap-2">
- <a href="#item1" ><span class="bg-black rounded-full px-2 py-2 text-white"><</span></a> 
- <a href="#item2"><span class="bg-black rounded-full px-2 py-2 text-white">></span></a> 
-</div>
-
+<section>
+  <div class="carousel">
+    <div id="item1" class="carousel-item w-full bg">
+      <img src="images/banner-1.png" class="w-full" />
+    </div> 
+    <div id="item2" class="carousel-item w-full">
+      <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+    </div> 
+    <div id="item3" class="carousel-item w-full">
+      <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+    </div> 
+    <div id="item4" class="carousel-item w-full">
+      <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+    </div>
+   </div> 
+   <div class="flex justify-center w-full py-2 gap-2">
+    <a href="#item1" ><span class="bg-black rounded-full px-2 py-2 text-white"><</span></a> 
+    <a href="#item2"><span class="bg-black rounded-full px-2 py-2 text-white">></span></a> 
+   </div>
+   
+</section>
 
 
 <script src="https://kit.fontawesome.com/ac57d5bc4b.js" crossorigin="anonymous"></script>
