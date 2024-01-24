@@ -2,14 +2,10 @@
 section{
 margin: 2%;
 }
-nav{
- font-family: Manrope;
- font-size: 2.25rem;
- font-weight: 800;
-}
-p{
+
+/* p{
  font-weight: 400;
-}
+} */
 .six-cards{
  border: 1px solid #1313181A;
  border-radius: 1rem;
